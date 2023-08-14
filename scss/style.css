@@ -33,10 +33,28 @@ main{
 
 
 p{
-  color:orangered
+  color:orangered;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count:initial;
 
 }
 
+h1{
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
 .nav-item .nav-link {
