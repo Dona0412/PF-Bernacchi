@@ -6,46 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="shortcut icon" href="assets/img/logo guitarra.jpg">
-    <link href="./assets/style.css" rel="stylesheet">
+    <link href="./scss/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
 <body class="d-flex flex-column min-vh-100">
   <div class="d-flex flex-column min-vh-100">
-    <header class="bg-dark py-3">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="py-3">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid align-items-center">
-          <a href="./index.html" class="navbar-brand d-flex justify-content-start text-white ">Navbar</a>
+          <a href="./index.html" class="navbar-brand d-flex justify-content-start text-white ">Guitarras.com</a>
           <div class="navbar-content-center flex-grow-1">
           <ul class="nav nav-pills ">
             <li class="nav-item"><a href="./modelos.html" class="nav-link active" aria-current="page">Ver productos</a></li>
             <li class="nav-item"><a href="./sabermas.html" class="nav-link">Saber más</a></li>
-            <li class="nav-item"><a href="./valoranos.html" class="nav-link">Valoranos</a></li>
             <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
+            <li class="nav-item"><a href="./iniciarsesion.html" class="nav-link">Iniciar Sesión</a></li>
             
             
           </ul>
           </div>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar instrumento" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-light" type="submit">Search</button>
           </form>
         </div>
 
       </nav>
     </header>
-    <main style="background-image: url('https://img3.wallspic.com/crops/1/8/4/4/3/134481/134481-guitarra-instrumento_musical_electronico-instrumento_de_cuerda-sica-cuello-1920x1080.jpg'); background-size:cover; background-repeat:no-repeat;background-position: center center; height: 80vh;">
-      <div class="container d-flex justify-content-center align-items-center min-vh-100" >
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-6 text-center;" style="color:fuchsia">
-            <h1 class="mt-4" style="color: orangered">Bienvenido a Guitarras.com</h1>
-            <p style="color:orangered">¡Aquí encontrarás las guitarras de mejor calidad!</p>
-            <button class="btn btn-primary" style="color: white;"><a href="modelos.html" style="color: white; text-decoration: none;">Ver productos</a></button>
-          </div>
+    <main class="inicio">
+      <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="col-md-6 text-center">
+          <h1 class="mt-4">Bienvenido a Guitarras.com</h1>
+          <p>¡Aquí encontrarás las guitarras de mejor calidad!</p>
+          <button class="btn btn-primary"><a href="modelos.html" style="color: white; text-decoration: none;"> Ver productos</a></button>
         </div>
       </div>
     </main>
       
-        <footer class="bg-dark text-center text-white py-3">
+        <footer class="text-center text-white py-3">
           <div class="container p-4 pb-0">
             <section class="">
               <form action="">
@@ -70,7 +68,7 @@
               </form>
             </section>
           </div>
-          <div class="text-center p-5 bg-dark" >
+          <div class="text-center p-5" >
             © 2020 Copyright:
             <a class="text-white" href="#">Donato Bernacchi</a>
           </div>
