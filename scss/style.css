@@ -1,6 +1,6 @@
 footer, header {
-  background-color: rgb(63, 94, 251);
-  background-color: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+  background: rgb(63,94,251);
+ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
 }/*# sourceMappingURL=style.css.map */
 
 
@@ -60,3 +60,39 @@ h1{
 .nav-item .nav-link {
   color: white; 
   text-decoration: none;}
+
+
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+  }
+  
+  @media (max-width: 768px) {
+    /* Estilos para el menú de hamburguesa */
+    .navbar-list {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar-list.active {
+      display: flex;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
