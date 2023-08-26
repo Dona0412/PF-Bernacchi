@@ -75,24 +75,4 @@ h1{
     margin: 3px 0;
   }
   
-  @media (max-width: 768px) {
-    /* Estilos para el menú de hamburguesa */
-    .navbar-list {
-      display: none;
-      flex-direction: column;
-      background-color: #333;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      text-align: center;
-    }
   
-    .navbar-list.active {
-      display: flex;
-    }
-  
-    .navbar-toggle {
-      display: block;
-    }
-  }
